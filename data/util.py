@@ -8,3 +8,4 @@ def get_conection():
     except sqlite3.Error as e:
         print(e)
     return conn
+
